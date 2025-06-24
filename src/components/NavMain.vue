@@ -57,5 +57,5 @@ import {
 
 const router = useRouter()
 
-const appRouters: RouteRecordRaw[] = router.options.routes.filter((item: RouteRecordRaw) => !['home', 'about'].includes(item.name as string))
+const appRouters: RouteRecordRaw[] = router.options.routes.filter((item: RouteRecordRaw) => !['NotFound', 'home', 'about'].includes(item.name as string))
 </script>
